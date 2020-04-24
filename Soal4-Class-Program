@@ -1,0 +1,16 @@
+package praktek4;
+
+public class Praktek4 {
+
+    public static void main(String[] args) {
+        
+        Instructor myInstructor = new Instructor("Sukma", "Franata A", "S4173CG");
+       
+       TextBook myTextBook = new TextBook("Panduan Memasak", "Squidward Tentacle", "Tiga Bola");
+       
+       Course myCourse = new Course("Belajar Memasak", myInstructor, myTextBook);
+       
+       System.out.println(myCourse);
+    }
+    
+}
